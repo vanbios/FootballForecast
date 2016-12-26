@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/common_padding_xlarge"
+    android:paddingLeft="@dimen/common_padding_large"
+    android:paddingRight="@dimen/common_padding_large"
+    android:paddingTop="@dimen/common_padding_large">
+
+    <TextView
+        style="@style/SubheadFontGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/average_players_age"
+        android:textAllCaps="true"
+        android:textColor="@color/custom_green_infogr" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_padding_xlarge"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linLayItemForecastDetailsAverageAgeGreenContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/custom_green_infogr"
+                android:paddingBottom="2dp"
+                android:paddingLeft="@dimen/common_padding_medium"
+                android:paddingRight="@dimen/common_padding_medium"
+                android:paddingTop="2dp">
+
+                <TextView
+                    android:id="@+id/tvItemForecastDetailsAverageAgeGreenName"
+                    style="@style/BodyFontWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Индепендиенте дел Валле" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsAverageAgeGreenValue"
+                style="@style/BodyFontBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/common_padding_medium"
+                android:text="22,9"
+                android:textColor="@color/custom_green_infogr" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linLayItemForecastDetailsAverageAgeBlueContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/custom_blue_infogr"
+                android:paddingBottom="2dp"
+                android:paddingLeft="@dimen/common_padding_medium"
+                android:paddingRight="@dimen/common_padding_medium"
+                android:paddingTop="2dp">
+
+                <TextView
+                    android:id="@+id/tvItemForecastDetailsAverageAgeBlueName"
+                    style="@style/BodyFontWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Атлетико Насьональ" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsAverageAgeBlueValue"
+                style="@style/BodyFontBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/common_padding_medium"
+                android:text="24,3"
+                android:textColor="@color/custom_blue_infogr" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

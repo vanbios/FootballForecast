@@ -1,0 +1,104 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'me.tatarka:gradle-retrolambda:3.2.5'
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'android-apt'
+
+retrolambda {
+    jvmArgs '-noverify'
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.vanbios.footballforecast"
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+ext {
+    supportLibraryVersion = '25.1.0'
+    retrofitVersion = '2.1.0'
+    gmsVersion = '10.0.1'
+    daggerVersion = '2.7'
+    gsonVersion = '2.8.0'
+    butterknifeVersion = '8.4.0'
+    lombokVersion = '1.16.12'
+    eventbusVersion = '3.0.0'
+    streamapiVersion = '1.1.4'
+    rxjavaVersion = '1.2.3'
+    rxandroidVersion = '1.2.1'
+    mpchartVersion = '2.1.3'
+    jsr250Version = '1.0'
+    crashlyticsVersion = '2.6.5'
+    materialdialogVersion = '0.8.5.8'
+    picassoVersion = '2.5.2'
+    circularimageVersion = '2.1.0'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+
+    // support libs
+    compile "com.android.support:appcompat-v7:$supportLibraryVersion"
+    compile "com.android.support:design:$supportLibraryVersion"
+
+    // dagger 2
+    apt "com.google.dagger:dagger-compiler:$daggerVersion"
+    compile "com.google.dagger:dagger:$daggerVersion"
+    provided "javax.annotation:jsr250-api:$jsr250Version"
+
+    // butterknife
+    compile "com.jakewharton:butterknife:$butterknifeVersion"
+    apt "com.jakewharton:butterknife-compiler:$butterknifeVersion"
+
+    //retrofit 2
+    compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    compile "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    compile "com.squareup.retrofit2:adapter-rxjava:$retrofitVersion"
+
+    compile "com.google.code.gson:gson:$gsonVersion"
+
+    // stream api
+    compile "com.annimon:stream:$streamapiVersion"
+
+    // rx
+    compile "io.reactivex:rxandroid:$rxandroidVersion"
+    compile "io.reactivex:rxjava:$rxjavaVersion"
+
+    // lombok
+    provided "org.projectlombok:lombok:$lombokVersion"
+    apt "org.projectlombok:lombok:$lombokVersion"
+
+    // images
+    compile "com.squareup.picasso:picasso:$picassoVersion"
+    compile "de.hdodenhof:circleimageview:$circularimageVersion"
+}

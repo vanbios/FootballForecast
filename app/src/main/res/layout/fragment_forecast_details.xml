@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_forecast_details_header" />
+
+        <include layout="@layout/item_forecast_details_place" />
+
+        <WebView
+            android:id="@+id/webViewFrgForecastDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/common_padding_small"
+            android:paddingRight="@dimen/common_padding_small">
+
+        </WebView>
+
+        <include layout="@layout/item_forecast_details_author" />
+
+        <LinearLayout
+            android:id="@+id/linLayFrgForecastDetailsInfograf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/itemForecastDetailsAdditional"
+                layout="@layout/item_forecast_details_additional_statistic" />
+
+            <include
+                android:id="@+id/itemForecastDetailsTournamentStatistic"
+                layout="@layout/item_forecast_details_tournament_statistic" />
+
+            <include
+                android:id="@+id/itemForecastDetailsGoals"
+                layout="@layout/item_forecast_details_goals" />
+
+            <include
+                android:id="@+id/itemForecastDetailsAverageProgress"
+                layout="@layout/item_forecast_details_average_progress" />
+
+            <include
+                android:id="@+id/itemForecastDetailsAverageAge"
+                layout="@layout/item_forecast_details_average_age" />
+
+            <include
+                android:id="@+id/itemForecastDetailsKnowWhat"
+                layout="@layout/item_forecast_details_know_what" />
+
+        </LinearLayout>
+
+        <include layout="@layout/item_details_footer" />
+
+    </LinearLayout>
+</ScrollView>

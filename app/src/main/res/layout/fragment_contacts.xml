@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/custom_blue_regular"
+            android:paddingBottom="@dimen/common_padding_xlarge"
+            android:paddingTop="@dimen/common_padding_xlarge">
+
+            <TextView
+                style="@style/TitleFontWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/contacts"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/common_padding_large">
+
+            <TextView
+                style="@style/BodyFontSecondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contacts_info_prt1" />
+
+            <TextView
+                style="@style/BodyFontBlackBold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_padding_small"
+                android:text="@string/contacts_info_prt2" />
+
+            <TextView
+                style="@style/BodyFontSecondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_padding_large"
+                android:text="@string/contacts_info_prt3" />
+
+            <TextView
+                style="@style/BodyFontBlackBold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_padding_large"
+                android:text="@string/contacts_info_prt4" />
+
+            <TextView
+                style="@style/BodyFontSecondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contacts_info_prt5" />
+
+            <TextView
+                style="@style/BodyFontBlackBold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/contacts_info_prt6" />
+
+            <TextView
+                style="@style/BodyFontBlackBold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_padding_large"
+                android:text="@string/contacts_info_prt7" />
+
+            <TextView
+                style="@style/BodyFontSecondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contacts_info_prt8" />
+
+            <TextView
+                style="@style/BodyFontBlackBold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/contacts_info_prt9" />
+
+            <TextView
+                style="@style/BodyFontBlackBold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_padding_large"
+                android:text="@string/contacts_info_prt10" />
+
+            <TextView
+                style="@style/BodyFontSecondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contacts_info_prt11" />
+
+            <TextView
+                style="@style/BodyFontBlackBold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/contacts_info_prt12" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/custom_blue_light_background_infogr"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/common_padding_medium"
+    android:paddingLeft="@dimen/common_padding_small"
+    android:paddingRight="@dimen/common_padding_small"
+    android:paddingTop="@dimen/common_padding_xlarge">
+
+    <TextView
+        style="@style/SubheadFontWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tournament_statistic"
+        android:textAllCaps="true"
+        android:textColor="@color/custom_blue_infogr_background" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_padding_xlarge"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/common_padding_small"
+            android:layout_weight="1"
+            android:background="@color/custom_green_infogr"
+            android:gravity="center"
+            android:paddingBottom="@dimen/common_padding_medium"
+            android:paddingTop="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticGreenName"
+                style="@style/TitleFontWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Monako" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_padding_small"
+            android:layout_weight="1"
+            android:background="@color/custom_blue_infogr"
+            android:gravity="center"
+            android:paddingBottom="@dimen/common_padding_medium"
+            android:paddingTop="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticBlueName"
+                style="@style/TitleFontWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Juventus" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/common_padding_medium"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticGreen1"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="29"
+                android:textColor="@color/custom_green_infogr" />
+
+            <TextView
+                style="@style/TitleFont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/played_matches"
+                android:textSize="@dimen/text_size_spinner" />
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticBlue1"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="34"
+                android:textColor="@color/custom_blue_infogr" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticGreen2"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="29"
+                android:textColor="@color/custom_green_infogr" />
+
+            <TextView
+                style="@style/TitleFont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/win"
+                android:textSize="@dimen/text_size_spinner" />
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticBlue2"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="34"
+                android:textColor="@color/custom_blue_infogr" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticGreen3"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="29"
+                android:textColor="@color/custom_green_infogr" />
+
+            <TextView
+                style="@style/TitleFont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/draw"
+                android:textSize="@dimen/text_size_spinner" />
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticBlue3"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="34"
+                android:textColor="@color/custom_blue_infogr" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticGreen4"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="29"
+                android:textColor="@color/custom_green_infogr" />
+
+            <TextView
+                style="@style/TitleFont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/loose"
+                android:textSize="@dimen/text_size_spinner" />
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticBlue4"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="34"
+                android:textColor="@color/custom_blue_infogr" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticGreen5"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="29"
+                android:textColor="@color/custom_green_infogr" />
+
+            <TextView
+                style="@style/TitleFont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/tour_place"
+                android:textSize="@dimen/text_size_spinner" />
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticBlue5"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="34"
+                android:textColor="@color/custom_blue_infogr" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticGreen6"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="29"
+                android:textColor="@color/custom_green_infogr" />
+
+            <TextView
+                style="@style/TitleFont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/done_goals"
+                android:textSize="@dimen/text_size_spinner" />
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticBlue6"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="34"
+                android:textColor="@color/custom_blue_infogr" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticGreen7"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="29"
+                android:textColor="@color/custom_green_infogr" />
+
+            <TextView
+                style="@style/TitleFont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/missed_goals"
+                android:textSize="@dimen/text_size_spinner" />
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticBlue7"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="34"
+                android:textColor="@color/custom_blue_infogr" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticGreen8"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="29"
+                android:textColor="@color/custom_green_infogr" />
+
+            <TextView
+                style="@style/TitleFont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/matches_without_missed_goals"
+                android:textSize="@dimen/text_size_spinner" />
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticBlue8"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="34"
+                android:textColor="@color/custom_blue_infogr" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticGreen9"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="29"
+                android:textColor="@color/custom_green_infogr" />
+
+            <TextView
+                style="@style/TitleFont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/collected_points"
+                android:textSize="@dimen/text_size_spinner" />
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsTournamentStatisticBlue9"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="34"
+                android:textColor="@color/custom_blue_infogr" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

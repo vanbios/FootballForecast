@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">@color/custom_blue_regular</color>
+    <color name="colorAccent">@color/custom_blue_regular</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="custom_blue_regular">#005e9c</color>
+    <color name="custom_blue_infogr_background">#41658b</color>
+    <color name="custom_green_infogr">#0f9522</color>
+    <color name="custom_blue_infogr">#2877d7</color>
+    <color name="custom_blue_light_infogr">#afcdf1</color>
+    <color name="custom_blue_light_background_infogr">#dfeeff</color>
+    <color name="custom_gray_infogr_background">#e9e9e9</color>
+
+    <color name="gray_light">#d3d3d3</color>
+    <color name="gray_light_more_darker">#bfbfbf</color>
+    <color name="gray_divider">#e3e3e3</color>
+
+    <color name="custom_text_light">#FFFFFF</color>
+    <color name="custom_text_secondary">#727272</color>
+    <color name="custom_text_gray_dark">#ff616161</color>
+    <color name="custom_gray_background">#888888</color>
+
+    <color name="custom_green_regular">#26813a</color>
+    <color name="custom_green_dark">#3a6856</color>
+    <color name="custom_red_regular">#cc2721</color>
+    <color name="custom_red_light">#e74419</color>
+    <color name="custom_yellow_regular">#ffbb00</color>
+
+
+</resources>

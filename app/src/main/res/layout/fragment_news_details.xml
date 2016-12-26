@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_news_header" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_padding_large">
+
+            <ImageView
+                android:id="@+id/ivItemNewsBanner"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/common_padding_xlarge"
+                android:background="@color/custom_red_light"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/common_padding_small">
+
+                <TextView
+                    android:id="@+id/tvItemNewsTime"
+                    style="@style/BodyFontWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10:09" />
+
+                <TextView
+                    android:id="@+id/tvItemNewsDate"
+                    style="@style/BodyFontWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="14.07.16" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvFrgNewsDetailsInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_padding_large"
+            android:layout_marginRight="@dimen/common_padding_large"
+            android:layout_marginTop="@dimen/common_padding_large" />
+
+        <include layout="@layout/item_details_footer" />
+
+    </LinearLayout>
+</ScrollView>

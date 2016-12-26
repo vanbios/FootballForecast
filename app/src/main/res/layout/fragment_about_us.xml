@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/custom_blue_regular"
+            android:paddingBottom="@dimen/common_padding_xlarge"
+            android:paddingTop="@dimen/common_padding_xlarge">
+
+            <TextView
+                style="@style/TitleFontWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/about_us"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/common_padding_large">
+
+
+            <TextView
+                style="@style/BodyFontSecondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_us_info_prt1" />
+
+            <TextView
+                style="@style/BodyFontBlackBold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_padding_medium"
+                android:text="@string/about_us_info_prt2"
+                android:textSize="@dimen/text_size_subhead" />
+
+            <TextView
+                style="@style/BodyFontSecondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_us_info_prt3" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

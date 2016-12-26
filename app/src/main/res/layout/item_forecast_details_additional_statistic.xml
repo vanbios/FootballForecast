@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/custom_blue_infogr_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/common_padding_xlarge"
+    android:paddingLeft="@dimen/common_padding_small"
+    android:paddingRight="@dimen/common_padding_small"
+    android:paddingTop="@dimen/common_padding_xlarge">
+
+    <TextView
+        style="@style/SubheadFontWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/additional_statistic"
+        android:textAllCaps="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_padding_xlarge"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:paddingTop="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/custom_green_infogr"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/common_padding_small">
+
+                    <TextView
+                        android:id="@+id/tvItemForecastDetailsAdditionalNameGreen"
+                        style="@style/SubheadFontWhite"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:singleLine="true"
+                        android:text="Monako"
+                        android:textAllCaps="true" />
+
+                    <TextView
+                        style="@style/SubheadFontWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wins" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:background="@color/white"
+                android:paddingBottom="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/custom_green_infogr"
+                    android:gravity="center"
+                    android:padding="@dimen/common_padding_small">
+
+                    <TextView
+                        android:id="@+id/tvItemForecastDetailsAdditionalWinCountGreen"
+                        style="@style/SubheadFontWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_padding_small"
+            android:baselineAligned="false"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:paddingTop="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/custom_blue_light_infogr"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/common_padding_small">
+
+                    <TextView
+                        style="@style/SubheadFontWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/draws"
+                        android:textColor="@color/custom_blue_infogr_background" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:background="@color/white"
+                android:paddingBottom="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/custom_blue_light_infogr"
+                    android:gravity="center"
+                    android:padding="@dimen/common_padding_small">
+
+                    <TextView
+                        android:id="@+id/tvItemForecastDetailsAdditionalDrawCount"
+                        style="@style/SubheadFontWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="@color/custom_blue_infogr_background" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_padding_small"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:paddingTop="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/custom_blue_infogr"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/common_padding_small">
+
+                    <TextView
+                        android:id="@+id/tvItemForecastDetailsAdditionalNameBlue"
+                        style="@style/SubheadFontWhite"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:singleLine="true"
+                        android:text="Juventus"
+                        android:textAllCaps="true" />
+
+                    <TextView
+                        style="@style/SubheadFontWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wins" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:background="@color/white"
+                android:paddingBottom="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/custom_blue_infogr"
+                    android:gravity="center"
+                    android:padding="@dimen/common_padding_small">
+
+                    <TextView
+                        android:id="@+id/tvItemForecastDetailsAdditionalWinCountBlue"
+                        style="@style/SubheadFontWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

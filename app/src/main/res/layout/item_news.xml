@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linLayItemNewsRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_list_light_selector"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_padding_large">
+
+        <ImageView
+            android:id="@+id/ivItemNewsBanner"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/common_padding_xlarge"
+            android:background="@color/custom_red_light"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/common_padding_small">
+
+            <TextView
+                android:id="@+id/tvItemNewsTime"
+                style="@style/BodyFontWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:09" />
+
+            <TextView
+                android:id="@+id/tvItemNewsDate"
+                style="@style/BodyFontWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="14.07.16" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_padding_medium">
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginRight="@dimen/common_padding_medium"
+            android:layout_marginTop="4dp"
+            android:background="@color/custom_red_light" />
+
+        <TextView
+            android:id="@+id/tvItemNewsTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Комиссия по азартным играм Великобритании намерена подать на рассмотрение законопроект в британский парламент, согласно которому структура уплаты налогов для букмекеров будет зависеть от доходов оператора ставок." />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/gray_divider" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:paddingLeft="@dimen/common_padding_large"
+    android:paddingRight="@dimen/common_padding_large"
+    android:paddingBottom="@dimen/common_padding_medium"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_marginBottom="@dimen/common_padding_large">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ratingbet_logo"/>
+
+</LinearLayout>

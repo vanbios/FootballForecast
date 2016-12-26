@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/custom_blue_infogr_background"
+        android:gravity="center"
+        android:paddingBottom="@dimen/common_padding_medium"
+        android:paddingTop="@dimen/common_padding_medium">
+
+        <TextView
+            style="@style/TitleFontWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/common_padding_medium"
+            android:text="@string/know_what"
+            android:textAllCaps="true" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/icon_know_what" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linLayItemForecastDetailsKnowWhatRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/custom_blue_infogr_background" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/gray_light" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_infogr" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Football Forecast</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="forecast_for_date_placeholder">Прогноз на матч %s</string>
+
+    <string name="tournament_placeholder">Турнир: %s</string>
+    <string name="date_placeholder">Дата матча: %s</string>
+    <string name="place_placeholder">Место проведения: %s</string>
+
+    <string name="forecast_of_day">Прогноз дня</string>
+    <string name="news">Новости</string>
+
+    <string name="all">Все</string>
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
+
+    <string name="full_version">Полная версия</string>
+
+    <string name="about_us">О нас</string>
+
+    <string name="about_us_info_prt1">
+        Мы являемся одним из самых крупных ресурсов, посвященных ставкам на спорт.
+        Нашей главной целью является помочь своим читателям определиться с выбором надежных букмекерских контор,
+        а также предоставить актуальную информацию о различных акциях и бонусах, проводимых на букмекерском рынке.
+        Здесь вы сможете найти для себя все необходимые данные о букмекерских конторах, на основе которых уже будете принимать решение,
+        стоит ли там делать ставки на спорт или лучше избежать этого.
+        Также у нас вы сможете найти рейтинг букмекерских контор, который составляется на основании критериев надежности,
+        удобности, величины коэффициентов, отношения к клиентам, возможностям вывода средств и конечно же,
+        на основании пользовательских оценок, которые вы, кстати, можете сделать в обзорах каждой из контор.
+        Это еще больше упрощает процесс выбора букмекерской конторы.
+        Знайте, конторы с высоким рейтингом обеспечат вам качественную честную игру и надежное обслуживание.
+    </string>
+
+    <string name="about_us_info_prt2">
+        Наши преимущества
+    </string>
+
+    <string name="about_us_info_prt3">
+        Рейтинг букмекерских контор составляется по нескольким категориям,
+        из которых можно выделить лидеров среди русских ресурсов и зарубежных, в зависимости от предоставляемых бонусов,
+        по выплатам и т.д.\nПомимо этого мы предоставляем спортивные прогнозы на различные спортивные события.\nПостоянно выкладываются бонусы,
+        которые предоставляют различные букмекерские конторы.\nМы следим за новостями в отрасли букмекерства и самые интересные предоставляем
+        вашему вниманию в соответствующем разделе.\nСтавки на спорт можно делать прямо с нашего сайта.
+    </string>
+
+
+    <string name="contacts">Контакты</string>
+
+    <string name="contacts_info_prt1">Если у вас остались вопросы или предложения, пожалуйста, напишите нам на почту:</string>
+    <string name="contacts_info_prt2">admin@ratingbet.com</string>
+    <string name="contacts_info_prt3">В зависимости от содержания вопроса вы можете обращаться на представленные ниже почты сотрудников RatingBet.com:</string>
+    <string name="contacts_info_prt4">Редактор:</string>
+    <string name="contacts_info_prt5">Алексей Сергеевич</string>
+    <string name="contacts_info_prt6">editor@ratingbet.com</string>
+    <string name="contacts_info_prt7">Отдел рекламы:</string>
+    <string name="contacts_info_prt8">Анна Викторовна</string>
+    <string name="contacts_info_prt9">advertising@ratingbet.com</string>
+    <string name="contacts_info_prt10">Техподдержка:</string>
+    <string name="contacts_info_prt11">Виктор Сергеевич</string>
+    <string name="contacts_info_prt12">info@ratingbet.com</string>
+
+
+    <string name="press_again_to_exit">Для выхода нажмите еще раз</string>
+    <string name="check_your_internet_connection">Проверьте Ваше подключение к Интернет</string>
+
+    // infography
+
+    <string name="additional_statistic">Дополнительная статистика матча</string>
+    <string name="wins">Побед</string>
+    <string name="draws">Ничьих</string>
+
+    <string name="tournament_statistic">Статистика в турнире в этом сезоне</string>
+    <string name="played_matches">Сыгранных матчей</string>
+    <string name="win">Победы</string>
+    <string name="draw">Ничьи</string>
+    <string name="loose">Поражения</string>
+    <string name="tour_place">Место в турнирке</string>
+    <string name="done_goals">Забитых голов</string>
+    <string name="missed_goals">Пропущенных голов</string>
+    <string name="matches_without_missed_goals">Матчи без пропущенных голов</string>
+    <string name="collected_points">Набранных очков</string>
+
+    <string name="goals_by_time">Голы по временным отрезкам матча</string>
+
+    <string name="know_what">Знаете ли вы что</string>
+
+    <string name="average_progress_in_tournament">Средние показатели команды в турнире</string>
+    <string name="average_players_age">Средний возраст команды</string>
+
+    <string name="goals_per_match">Забивает за матч</string>
+    <string name="miss_goals_per_match">Пропускает за матч</string>
+    <string name="collect_points_per_match">Зарабатывает очков за матч</string>
+
+
+    <string-array name="menu_items_string_array">
+        <item>Прогнозы</item>
+        <item>Новости</item>
+        <item>Контакты</item>
+        <item>О нас</item>
+    </string-array>
+</resources>

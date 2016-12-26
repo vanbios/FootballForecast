@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/common_padding_medium"
+    android:paddingLeft="@dimen/common_padding_small"
+    android:paddingRight="@dimen/common_padding_small"
+    android:paddingTop="@dimen/common_padding_xlarge">
+
+    <TextView
+        style="@style/SubheadFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/goals_by_time"
+        android:textAllCaps="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_padding_xlarge"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/common_padding_small"
+            android:layout_weight="1"
+            android:background="@color/custom_green_infogr"
+            android:gravity="center"
+            android:paddingBottom="@dimen/common_padding_medium"
+            android:paddingTop="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsGoalsGreenName"
+                style="@style/TitleFontWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Monako" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_padding_small"
+            android:layout_weight="1"
+            android:background="@color/custom_blue_infogr"
+            android:gravity="center"
+            android:paddingBottom="@dimen/common_padding_medium"
+            android:paddingTop="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsGoalsBlueName"
+                style="@style/TitleFontWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Juventus" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/common_padding_medium"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsGoalsGreen1"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="29"
+                android:textColor="@color/custom_green_infogr" />
+
+            <TextView
+                style="@style/TitleFont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="0-15'"
+                android:textSize="@dimen/text_size_spinner" />
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsGoalsBlue1"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="34"
+                android:textColor="@color/custom_blue_infogr" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/custom_gray_infogr_background"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsGoalsGreen2"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="29"
+                android:textColor="@color/custom_green_infogr" />
+
+            <TextView
+                style="@style/TitleFont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="15-30'"
+                android:textSize="@dimen/text_size_spinner" />
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsGoalsBlue2"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="34"
+                android:textColor="@color/custom_blue_infogr" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsGoalsGreen3"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="29"
+                android:textColor="@color/custom_green_infogr" />
+
+            <TextView
+                style="@style/TitleFont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="30-45'"
+                android:textSize="@dimen/text_size_spinner" />
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsGoalsBlue3"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="34"
+                android:textColor="@color/custom_blue_infogr" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/custom_gray_infogr_background"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsGoalsGreen4"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="29"
+                android:textColor="@color/custom_green_infogr" />
+
+            <TextView
+                style="@style/TitleFont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="45-60'"
+                android:textSize="@dimen/text_size_spinner" />
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsGoalsBlue4"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="34"
+                android:textColor="@color/custom_blue_infogr" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsGoalsGreen5"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="29"
+                android:textColor="@color/custom_green_infogr" />
+
+            <TextView
+                style="@style/TitleFont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="60-75'"
+                android:textSize="@dimen/text_size_spinner" />
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsGoalsBlue5"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="34"
+                android:textColor="@color/custom_blue_infogr" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/custom_gray_infogr_background"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding_medium">
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsGoalsGreen6"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="29"
+                android:textColor="@color/custom_green_infogr" />
+
+            <TextView
+                style="@style/TitleFont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="75-90'"
+                android:textSize="@dimen/text_size_spinner" />
+
+            <TextView
+                android:id="@+id/tvItemForecastDetailsGoalsBlue6"
+                style="@style/TitleFontWhite"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="34"
+                android:textColor="@color/custom_blue_infogr" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

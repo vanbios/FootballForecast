@@ -1,0 +1,148 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="TitleFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textColor">@color/custom_text_gray_dark</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+    <style name="TitleFontGreen" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textColor">@color/custom_green_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+    <style name="TitleFontWhite" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+    <style name="TitleFontSecondary" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textColor">@color/custom_text_secondary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+    <style name="BodyFontBlack" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+    <style name="BodyFontBlackBold" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+    <style name="BodyFontSecondary" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textColor">@color/custom_text_secondary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+    <style name="BodyFontWhite" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+    <style name="CaptionFontSecondary" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_caption</item>
+        <item name="android:textColor">@color/custom_text_secondary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+    <style name="SpinnerFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_spinner</item>
+        <item name="android:textColor">@color/custom_text_gray_dark</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+    <style name="SubheadFontSecondary" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_subhead</item>
+        <item name="android:textColor">@color/custom_text_secondary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+    <style name="SubheadFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_subhead</item>
+        <item name="android:textColor">@color/custom_text_gray_dark</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="SubheadFontBlack" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_subhead</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+    <style name="SubheadFontWhite" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_subhead</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+    <style name="SubheadFontGreen" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_subhead</item>
+        <item name="android:textColor">@color/custom_green_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+    <style name="TitleBigFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="android:textColor">@color/custom_text_gray_dark</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+</resources>

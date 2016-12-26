@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/common_padding_large"
+    android:paddingRight="@dimen/common_padding_large"
+    android:clickable="true"
+    android:background="@drawable/item_list_light_selector"
+    android:gravity="center_vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvItemNavRow"
+        style="@style/TitleFontSecondary"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:layout_gravity="center_vertical"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/common_padding_medium"/>
+
+    <View
+        android:id="@+id/vItemNavRow"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_light"
+        android:layout_marginTop="@dimen/common_padding_medium"/>
+
+</LinearLayout>
