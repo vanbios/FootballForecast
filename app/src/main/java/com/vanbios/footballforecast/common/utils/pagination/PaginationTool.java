@@ -56,11 +56,7 @@ public class PaginationTool<T> {
                         int position = getLastVisibleItemPosition(recyclerView);
                         int updatePosition = recyclerView.getAdapter().getItemCount() - 1 - (limit / 2);
                         if (position >= updatePosition) {
-                            //int itemCount = recyclerView.getAdapter().getItemCount();
-                            //int offset = itemCount > 0 ? (int) recyclerView.getAdapter().getItemId(itemCount - 1) : 0;
-
                             PagingIdInterface pagingIdInterface = (PagingIdInterface) recyclerView.getAdapter();
-                            //int offset = emptyListCountPlusToOffset ? recyclerView.getAdapter().getItemCount() : recyclerView.getAdapter().getItemCount() - emptyListCount;
                             subscriber.onNext(pagingIdInterface.getIdForPaging());
                         }
                     }
