@@ -48,12 +48,10 @@ ext {
     butterknifeVersion = '8.5.1'
     lombokVersion = '1.16.14'
     eventbusVersion = '3.0.0'
-    streamapiVersion = '1.1.5'
+    streamapiVersion = '1.1.6'
     rxjavaVersion = '1.2.7'
     rxandroidVersion = '1.2.1'
     jsr250Version = '1.0'
-    crashlyticsVersion = '2.6.6'
-    materialdialogVersion = '0.9.3.0'
     picassoVersion = '2.5.2'
     circularimageVersion = '2.1.0'
 }
